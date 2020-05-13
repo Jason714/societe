@@ -59,18 +59,7 @@ export default () => {
   return (
     <Router>
       <div className="App">
-        <Switch>
-          <Route exact path={["/", "/login"]}>
-            <LogIn />
-          </Route>
-          <Route exact path="/callback" component={Callback} />
-          <SecuredRoute
-            exact
-            path={["/viewingroom"]}
-            checkingSession={checkingSession}
-            component={ViewingRoom}
-          ></SecuredRoute>
-        </Switch>
+        <Switch></Switch>
       </div>
     </Router>
   );
