@@ -1,5 +1,4 @@
 import React from "react";
-import LoginBtn from "../../components/LoginBtn/LoginBtn";
 import { Container, Row, Col, Jumbotron } from "reactstrap";
 import "./landing.css";
 
@@ -25,7 +24,6 @@ export default function LandingPage() {
               <h4 className="text-center">
                 Your go to spot for all your media wants
               </h4>
-              <LoginBtn />
             </Col>
           </Row>
         </Container>
