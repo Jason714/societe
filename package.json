@@ -31,6 +31,6 @@
     "react-popper": "^2.2.3",
     "react-transition-group": "^4.4.1",
     "reactstrap": "^8.4.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.0"
   }
 }
